@@ -1,8 +1,13 @@
 const express = require('express');
+const cors = require('cors'); // <-- allows use in my app idk why
 const { fetchPacks, getDownloadLink } = require('./api.js');
 
 const app = express();
 const port = 3000;
+
+// allows use with apps
+app.use(cors());
+
 
 app.get('/fetch', async (req, res) => {
   try {
