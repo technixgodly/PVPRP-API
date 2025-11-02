@@ -11,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "axios": "^1.13.1",
     "cheerio": "^1.1.2",
     "express": "^5.1.0"
