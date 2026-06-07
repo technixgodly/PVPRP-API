@@ -1,19 +1,19 @@
 # PVPRP Parser API
 
-This project provides a REST API to fetch and download resource packs from **pvprp.com**.
+A REST API to fetch and download Minecraft resource packs from **pvprp.com**.
 
 ## Installation
 
-1. Clone the repository or download the source code.
+1. Clone the repository
 2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-## Starting the Server
+## Using the app
 
-Start the API server with:
+Start the application with:
 
 ```bash
 npm start
@@ -72,7 +72,7 @@ curl "http://localhost:3000/fetch?search=faithful&resolution=32&version=1.8&game
 
 ### 2. Get Download Link
 
-Fetches the download URL for the specified resource pack.
+Fetches the download URL for the given resource pack.
 
 * **URL:** `/download`
 * **Method:** `GET`
